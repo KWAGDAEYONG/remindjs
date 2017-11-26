@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baseball Game</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="/">Baseball Game</a>
+</nav>
+<main>
+    <div class="digit-ask-panel container">
+        <h2>몇 자리 게임을 시작할까요?</h2>
+        <div class="form-group">
+            <input type="number" id="digit" name="digit" class="form-control" required="required" value="3">
+        </div>
+        <button type="button" id="start-btn" class="btn btn-large btn-block btn-default">시작하기</button>
+    </div>
+    <div class="game-panel container">
+        <h2>Guess</h2>
+        <div class="form-group">
+            <input type="number" id="guess" name="digit" class="form-control" required="required">
+        </div>
+        <ul id="result-board" class="list-group">
+        </ul>
+    </div>
+</main>
+<script src="dist/bundle.js"></script>
+</body>
+</html>

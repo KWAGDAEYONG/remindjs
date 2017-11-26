@@ -1,0 +1,9 @@
+.started .digit-ask-panel {
+    display: none;
+}
+.game-panel {
+    display: none;
+}
+.started .game-panel {
+    display: block;
+}

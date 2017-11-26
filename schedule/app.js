@@ -1,61 +1,60 @@
-function App(){
-    var todos=[
-        {todo: "공부하기", done:false},
-        {todo: "놀기" , done:true},
-        {todo: "밥먹기" , done:false}
-    ],
-    todoContainerEl = document.querySelector(".todo-container"),
-    plusBtnEl = document.querySelector(".add-todo button"),
-    titleDate = document.querySelector(".title h2");
+var todoApp = {
+    todos : [],
+    todoContainerEl : $(".todo-container"),
+    plusBtn : $(".add-todo button"),
+    titleDateEl : $(".title h2"),
+    init: function(todos){
+        this.todos = todos;
+        this.renderTodos();
 
-    for(var i = 0; i<todos.length; i++){
-        var todoEl = createTodoEl(todos[i]);
-        todoContainerEl.appendChild(todoEl);
-        todoEl.addEventListener('click', (function () {
-            /*console.log(i);*/
-            var num = i;
-            return function(evt){
-                console.log('체크버튼 입력');
-                todos[num].done = evt.target.checked;
-                renderTodoCounts();
-            }
-        })());
-    }
+        this.plusBtn.on("click", function(evt){
+            var todoTextEl = $('.add-todo input[type="text"]')
+                , todoText = todoTextEl.val();
+            this.addTodo(todoText);
+            this.renderTodos();
+            todoTextEl.val('');
+        }.bind(this));
+    },
 
-    renderTodoCounts();
-
-    plusBtnEl.addEventListener('click',function(e){
-        var textEl = document.querySelector('.add-todo input[type="text"]'),
-             todoEl = createTodoEl({todo:textEl.value, done:false});
-        todoContainerEl.appendChild(todoEl);
-        textEl.value = '';
-        todos.push({todo: textEl.value, done:false});
-        renderTodoCounts();
-    });
-
-    function renderTodoCounts(){
+    renderTodos : function(){
+        this.todoContainerEl.empty();
+        for(var i = 0; i<this.todos.length; i++){
+            var todoEl = this.createTodoEl(this.todos[i]);
+            this.todoContainerEl.append(todoEl);
+            this.renderTitle();
+            todoEl.find('input[type="checkbox"]').on('click',(function(){
+                var num = i;
+                return function (evt) {
+                    this.todos[num].done = evt.target.checked;
+                    this.renderTitle();
+                }.bind(this);
+            }.bind(this))());
+        }
+    },
+    createTodoEl(todo) {
+        return $('<div>',{class:'todo'}).append($('<input>',{type : "checkbox"}).attr('checked',todo.done)).append($('<label>').html(todo.todo));
+    },
+    addTodo: function(text){
+        this.todos.push({todo:text, done:false});
+    },
+    renderTitle: function() {
+        this.titleDateEl.html(this.getToday() + '(' + this.todoCounts() + ')');
+    },
+    getToday: function(now){
         var now = new Date();
-        titleDate.innerHTML = now.getMonth()+'월 '+now.getDate()+'일 ('+ todoCounts() +')';
-    }
-
-    function todoCounts(){
+        return now.getMonth()+ '월'+now.getDate()+' 일';
+    },
+    todoCounts: function(){
         var counts = 0;
-        for(var i = 0; i<todos.length; i++){
-
-            if(todos[i].done===false) {
-                console.log("count:"+counts);
-                counts++;
-            }
+        for(var i = 0; i<this.todos.length; i++){
+            if(this.todos[i].done==false) counts++;
         }
         return counts;
     }
-
-    function createTodoEl(todo){
-        var todoEl = document.createElement("div");
-        todoEl.innerHTML = '<input type="checkbox"'+((todo.done)? 'checked' : '')+'><label>'+todo.todo+'</label>';
-        todoEl.className = 'todo';
-        return todoEl;
-    }
 }
 
-App();
+todoApp.init([
+    {todo: "공부하기", done:false},
+    {todo: "밥먹기", done:true},
+    {todo: "게임하기", done:false}
+])
