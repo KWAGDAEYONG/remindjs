@@ -1,0 +1,137 @@
+<!DOCTYPE    html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,	initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="import" href="./bootstrap.html">
+    <title>Drawer Compoenent</title>
+</head>
+<style>
+    fc-drawer {
+        --fc-drawer-close-color: blue;
+    }
+
+</style>
+<body class="dark">
+<template id="drawer-template">
+    <style>
+        :host {
+            display: block;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 320px;
+            box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.1);
+            width: 200px;
+            transition: all 0.4s ease-out;
+        }
+
+        :host(:hover) {
+            background-color: #eee;
+        }
+
+        :host-context(.dark):host {
+            background-color: #999;
+            color: white;
+        }
+
+        :host-context(.dark):host(:hover) {
+            background-color: #333;
+            color: white;
+        }
+
+        .heading {
+            text-align: right;
+            Drawer Web Component 55
+            padding: 0 4px;
+        }
+
+        button {
+            border: none;
+            background-color: white;
+            color: var(--fc-drawer-close-color, red);
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        ::slotted(ul) {
+            color: #d2d2d2;
+        }
+    </style>
+
+
+    <div class="heading">
+        <button id="close-btn">x</button>
+    </div>
+    <slot></slot>
+</template>
+<script>
+    class FcDrawer extends HTMLElement {
+        static get observedAttributes() {
+            return ['opened'];
+        }
+
+        constructor() {
+            super();
+            const shadowRoot = this.attachShadow({mode: 'open'});
+            const t = document.querySelector('#drawer-template');
+            const instance = t.content.cloneNode(true);
+            shadowRoot.appendChild(instance);
+            shadowRoot.addEventListener('click', e => {
+                if (e.target.id === 'close-btn') {
+                    console.log("button clicked!");
+                    this.opened = false;
+                }
+            });
+        }
+
+        connectedCallback() {
+            this.opened = this.getAttribute('opened');
+        }
+
+        get opened() {
+            return this.hasAttribute('opened');
+        }
+
+        set opened(val) {
+            if (val === '' || val === true || val === 'true') {
+                this.setAttribute('opened', '');
+                this.style.transform = 'translateX(0px)';
+            } else {
+                this.removeAttribute('opened');
+                this.style.transform = 'translateX(320px)';
+            }
+        }
+
+        attributeChangedCallback(name, oldValue, newValue) {
+            if (name === 'opened' && oldValue !== newValue) {
+                this.opened = newValue;
+            }
+        }
+
+    }
+
+    customElements.define('fc-drawer', FcDrawer);
+
+</script>
+<fc-drawer>
+    <ul>
+        <li>menu 1</li>
+        <li>menu 2</li>
+        <li>menu 3</li>
+        <li>menu 4</li>
+        <li>menu 5</li>
+    </ul>
+    <button>Button</button>
+</fc-drawer>
+<button id="open">OPEN</button>
+<script>
+    const drawer = document.querySelector('fc-drawer');
+    document.querySelector("#open").addEventListener('click', e => {
+        if (!drawer.opened) drawer.opened = true;
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<template id="product-tmpl">
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3 .3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/c ss/font-awesome.min.css">
+    <style>
+        .panel-body {
+            text-align: center;
+            padding: 0;
+        }
+
+        .panel-body img {
+            width: 100%;
+            height: 176px;
+        }
+
+        .img-container {
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+            display: block
+        }
+
+        .panel-body .content {
+            padding: 15px 15px 1px;
+            text-align: start;
+        }
+
+        .panel-body .img-options {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: none;
+        }
+
+        .panel-body:hover .img-options {
+            opacity: 1;
+            visibility: visible
+        }
+
+        .panel-body .img-options-content {
+            position: absolute;
+            top: 40%;
+            right: 0;
+            left: 0;
+            text-align: center
+        }
+
+        .panel-body .price {
+            color: #47bac1;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+
+        .panel-body .item-title {
+            font-size: 18px;
+            color: #646464;
+            line-height: 2;
+        }
+    </style>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="img-container"><img src="assets/images/products/item2.jpeg" alt="">
+                <div class="img-options">
+                    <div class="img-options-content">
+                        <ul class="list-inline btn-group mb-xxs" role="group">
+                            <li><a href="" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="./product-detail.html" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                            </li>
+                        </ul>
+                        <div class="text-warning"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <span
+                                class="text-white">(480)</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div><h4 id="product-price" class="price pull-right"></h4>
+                    <a id="product-name" href="" class="item-title" href="">Note 01</a></div>
+                <p>Lorem ipsum dolor sit amet</p></div>
+        </div>
+    </div>
+</template>
+<script>
+    customElements.define('fc-product', class extends HTMLElement {
+        static get observedAttributes(){
+            return ['product-id', 'product-name', 'product-price'];
+        }
+        constructor() {
+            super();
+            const doc = document._currentScript || document.currentScript,
+                shadowRoot = this.attachShadow({mode: 'open'}),
+                tmpl = doc.ownerDocument.querySelector('#product-tmpl').content.cloneNode(true);
+            shadowRoot.appendChild(tmpl);
+        }
+        get productId(){
+            return this.getAttribute('product-id');
+        }
+        get productPrice(){
+            return this.getAttribute('product-price');
+        }
+        get productName(){
+            return this.getAttribute('product-name');
+        }
+        set productId(val){
+            this.setAttribute('product-id', val);
+        }
+        set productPrice(val){
+            this.setAttribute('product-price', val);
+        }
+        set productName(val){
+            this.setAttribute('product-name', val);
+        }
+
+        attributeChangedCallback(name, oldValue, newValue){
+            const foundEl = this.shadowRoot.querySelector(`#${name}`);
+            if(foundEl) {
+                foundEl.textContent = newValue;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

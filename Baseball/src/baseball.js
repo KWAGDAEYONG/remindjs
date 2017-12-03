@@ -20,7 +20,7 @@ export class Baseball {
         return answer;
     }
 
-    getResult(...inputs) {
+    getResult(...inputs){
         let input = [].concat(...inputs);
         let result = "",
             strike = 0,
