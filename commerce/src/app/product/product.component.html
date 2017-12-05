@@ -1,3 +1,25 @@
-<p>
-  product works!
-</p>
+<div class="panel	panel-default">
+  <div class="panel-body">
+    <div class="img-container"><img src="assets/images/products/item1.jpeg" alt="">
+      <div class="img-options">
+        <div class="img-options-content">
+          <ul class="list-inline	btn-group	mb-xxs" role="group">
+            <li (click)="$event.preventDefault(); onStarClicked($event)"><a href="" class="btn	btn-default"><i class="fa	fa-heart"></i></a></li>
+            <li (click)="$event.preventDefault(); onCartClicked($event)"><a href="" class="btn	btn-default"><i class="fa	fa-shopping-cart"></i></a></li>
+            <li (click)="$event.preventDefault(); onDetailClicked($event)"><a href="./product-detail.html" class="btn	btn-default"><i class="fa	fa-eye"></i></a></li>
+          </ul>
+          <div class="text-warning">
+            <i *ngFor="let star of stars" [ngClass]="{'fa-star' : star==1, 'fa-star-o' : star==0}" class="fa"></i>
+
+            <span class="text-white">{{product.total_reviews}}</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div><h4 class="price	pull-right">{{product.price}}</h4>
+        <a href="" class="item-title" href="">{{product.name}}</a>
+      </div>
+      <p>{{product.info}}</p></div>
+  </div>
+</div>
+
