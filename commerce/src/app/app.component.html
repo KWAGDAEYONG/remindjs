@@ -1,1 +1,22 @@
-<dany-product></dany-product>
+<main>
+  <section class="new-arrivals container">
+    <div class="row copy mt-3">
+      <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1>NEW ARRIVALS</h1>
+        <p>lorem ipsum</p>
+      </div>
+    </div>
+    <div class="row items">
+      <div *ngFor="let product of productList" class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <dany-product
+          [product]="product"
+          (onStarClicked)="addStar($event)"
+          (onDetailClicked)="viewDetail($event)"
+          (onCartClicked)="addCart($event)"
+        >
+        </dany-product>
+      </div>
+    </div>
+  </section>
+</main>

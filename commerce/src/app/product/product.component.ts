@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Product} from "../shared/product";
 
 @Component({
@@ -7,30 +7,39 @@ import {Product} from "../shared/product";
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-  product : Product = {
+
+
+  _product : Product = {
     id : '1',
-    name : 'Angular Note',
-    price : 2000,
-    info : 'lorem',
-    avg_stars : 4,
-    total_reviews : 200
+    name : '-',
+    price : 0,
+    info : '-',
+    avg_stars : 0,
+    total_reviews : 0
   }
-  stars : number[] = Array(5).fill(0).map((x,i) => (i+1 <= this.product.avg_stars) ? 1:0);
+  stars : number[] = Array(5).fill(0);
 
   constructor() { }
+
+  get product(){
+    return this._product;
+  }
+
+  @Input()
+  set product(product : Product){
+    this._product = product;
+    this.stars = Array(5).fill(0).map((x,i) => (i+1 <= product.avg_stars) ? 1:0);
+  }
 
   ngOnInit() {
   }
 
-  onStarClicked(e:Event){
-    console.log(e.target);
-  }
+  @Output()
+  onStarClicked = new EventEmitter<Product>();
 
-  onCartClicked(e:Event){
-    console.log(e.target);
-  }
+  @Output()
+  onCartClicked = new EventEmitter<Product>();
 
-  onDetailClicked(e:Event){
-    console.log(e.target);
-  }
+  @Output()
+  onDetailClicked = new EventEmitter<Product>();
 }
