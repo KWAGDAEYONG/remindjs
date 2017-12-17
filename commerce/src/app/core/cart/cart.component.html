@@ -1,0 +1,29 @@
+<div class="shopping-cart">
+  <div class="cart-header text-center p-xs">
+    <a href="#" (click)="onCloseClicked(); false;" class="drawer-close navy-link pull-left">
+      <i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i>
+    </a>
+    <span class="navy">SHOPPING CART</span>
+    <div class="navy-line"></div>
+  </div>
+  <div class="cart-content">
+    <ul class="list-unstyled">
+      <li class="cart-item" *ngFor="let item of cart">
+        <a (click)="remove(item); false;" class="navy-link remove-item">×</a>
+        <a href="./product-detail.html">
+          <img width="250" height="250" src="./assets/images/products/item{{item.product.id}}.jpeg" class="p-s"> {{item.product.name}}
+        </a>
+        <span class="quantity">
+          {{item.counts}} × <span class="price">{{item.product.price}}</span>
+        </span>
+      </li>
+    </ul>
+    <div class="total-section p-s gray-bg">
+      <span class="m-0">TOTAL:</span>
+      <h4 class="pull-right m-0">{{getTotal()}}</h4>
+    </div>
+  </div>
+  <div class="cart-footer p-s">
+    <a class="btn btn-lg btn-primary checkout-btn" routerLink="/checkout" role="button">Checkout</a>
+  </div>
+</div>

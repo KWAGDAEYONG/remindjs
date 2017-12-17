@@ -1,4 +1,9 @@
+<dany-drawer #drawer>
+  <dany-cart #cart (onClose)="drawer.close()" (onItemRemove)="navi.cartTotalCount = $event.length"></dany-cart>
+</dany-drawer>
+<dany-navi #navi (onCartClick)="(drawer.isOpen)? drawer.close() : drawer.open()"></dany-navi>
 <main>
+  <dany-banner></dany-banner>
   <section class="new-arrivals container">
     <div class="row copy mt-3">
       <div class="col-lg-12 text-center">
@@ -13,7 +18,7 @@
           [product]="product"
           (onStarClicked)="addStar($event)"
           (onDetailClicked)="viewDetail($event)"
-          (onCartClicked)="addCart($event)"
+          (onCartClicked)="addCart($event, cart)"
         >
         </dany-product>
       </div>

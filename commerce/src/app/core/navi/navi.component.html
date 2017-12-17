@@ -1,0 +1,51 @@
+<header class="navbar-wrapper">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <ul class="list-inline pull-right top-right">
+              <li class="account-login">
+                <span>
+                  <a href="#" data-toggle="modal" data-target="#login-modal">Log in</a>
+                  <small>or</small>
+                  <a href="#" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
+                </span>
+              </li>
+              <li class="cart">
+                <a href="#" (click)="onCartClicked($event); false" class="shopping-cart-btn">
+                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                  Cart
+                  <span class="item-0umber">({{cartTotalCount}})</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container navbar-inner">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">FAST SHOP</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="page-scroll" href="./index.html">HOME</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="./products.html">PRODUCTS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

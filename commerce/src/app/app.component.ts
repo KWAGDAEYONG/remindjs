@@ -1,6 +1,8 @@
 import {Component, ViewChild} from '@angular/core';
 import {Product} from "./shared/product";
-import {ProductComponent} from "./product/product.component";
+import {CartComponent} from "./core/cart/cart.component";
+import {NaviComponent} from "./core/navi/navi.component";
+import {DrawerComponent} from "./shared/drawer/drawer.component";
 
 
 @Component({
@@ -9,6 +11,13 @@ import {ProductComponent} from "./product/product.component";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  @ViewChild(NaviComponent)
+  naviComponent: NaviComponent;
+
+  @ViewChild(DrawerComponent)
+  drawerComponent: DrawerComponent;
+
   productList : Product[] = [
     {
       id: '1',
@@ -45,23 +54,21 @@ export class AppComponent {
   ]
   title = 'dany';
 
-  /*
-    @ViewChild(ProductComponent)
-    productComponent : ProductComponent;
-
-  */
 
   viewDetail(product: Product) {
 
     console.log(product);
   }
 
-  addCart(product: Product) {
-    console.log(product);
+  addCart(product: Product, cart: CartComponent) {
+    cart.addCart(product);
+    this.naviComponent.cartTotalCount = cart.cart.length;
+    this.drawerComponent.open();
   }
 
   addStar(product: Product) {
-    console.log(product);
+
+    console.log(product.avg_stars);
   }
 
 }
