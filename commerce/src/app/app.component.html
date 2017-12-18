@@ -1,7 +1,17 @@
 <dany-drawer #drawer>
   <dany-cart #cart (onClose)="drawer.close()" (onItemRemove)="navi.cartTotalCount = $event.length"></dany-cart>
 </dany-drawer>
-<dany-navi #navi (onCartClick)="(drawer.isOpen)? drawer.close() : drawer.open()"></dany-navi>
+<dany-navi #navi
+           (onCartClick)="(drawer.isOpen)? drawer.close() : drawer.open()"
+           (onLoginClick)="modal.show()"
+           (onSignUpClick)="modal.show()"></dany-navi>
+
+<!--modal-->
+<div bsModal #modal="bs-modal" dany-login class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+
+</div>
+
 <main>
   <dany-banner></dany-banner>
   <section class="new-arrivals container">
@@ -13,7 +23,7 @@
       </div>
     </div>
     <div class="row items">
-      <div *ngFor="let product of productList" class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <div *ngFor="let product of productList" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
         <dany-product
           [product]="product"
           (onStarClicked)="addStar($event)"

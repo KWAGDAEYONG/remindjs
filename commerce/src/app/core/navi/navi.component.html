@@ -7,9 +7,9 @@
             <ul class="list-inline pull-right top-right">
               <li class="account-login">
                 <span>
-                  <a href="#" data-toggle="modal" data-target="#login-modal">Log in</a>
+                  <a href="#" (click)="onLoginClick.emit()" data-toggle="modal" data-target="#login-modal">Log in</a>
                   <small>or</small>
-                  <a href="#" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
+                  <a href="#" (click)="onSignUpClick.emit()" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
                 </span>
               </li>
               <li class="cart">

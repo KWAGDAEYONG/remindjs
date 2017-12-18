@@ -17,6 +17,12 @@ export class NaviComponent implements OnInit {
   @Output()
   onCartClick = new EventEmitter();
 
+  @Output()
+  onSignUpClick = new EventEmitter();
+
+  @Output()
+  onLoginClick = new EventEmitter();
+
   constructor(private el: ElementRef, @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
@@ -26,6 +32,7 @@ export class NaviComponent implements OnInit {
   onCartClicked() {
     this.onCartClick.emit();
   }
+
 
   @HostListener("window:croll", [])
   onWindowScroll() {
