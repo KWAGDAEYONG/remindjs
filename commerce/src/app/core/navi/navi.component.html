@@ -5,13 +5,20 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <ul class="list-inline pull-right top-right">
-              <li class="account-login">
+              <li *ngIf="!email; else loginInfo" class="account-login">
                 <span>
                   <a href="#" (click)="onLoginClick.emit()" data-toggle="modal" data-target="#login-modal">Log in</a>
                   <small>or</small>
                   <a href="#" (click)="onSignUpClick.emit()" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
                 </span>
               </li>
+              <ng-template #loginInfo>
+                <li class="account-login">
+                  <a>{{email}}</a>
+                  <small>/</small>
+                  <a href="#" (click)="logout(); false">LogOut</a>
+                </li>
+              </ng-template>
               <li class="cart">
                 <a href="#" (click)="onCartClicked($event); false" class="shopping-cart-btn">
                   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
