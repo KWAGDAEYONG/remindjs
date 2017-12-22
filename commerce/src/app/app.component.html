@@ -4,7 +4,7 @@
 <dany-navi #navi
            (onCartClick)="(drawer.isOpen)? drawer.close() : drawer.open()"
            (onLoginClick)="modal.show()"
-           (onSignUpClick)="modal.show()"></dany-navi>
+           (onSignUpClick)="signUp()" ></dany-navi>
 
 <!--modal-->
 <div bsModal #modal="bs-modal" dany-login class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"

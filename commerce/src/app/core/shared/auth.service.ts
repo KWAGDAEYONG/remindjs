@@ -24,7 +24,7 @@ export class AuthService {
   }
 
   login(email: string, password: string) {
-    return this.http.post<{token}>('http://localhost:3000/auth/login', {
+    return this.http.post<{token}>('http://localhost:3000/api/auth/login', {
       email, password
     })
       .map(v => v.token)

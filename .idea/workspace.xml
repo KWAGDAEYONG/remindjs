@@ -3,858 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7245440-0a19-450a-bef8-11bd105eca81" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commerce/package-lock.json" afterPath="$PROJECT_DIR$/commerce/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/commerce/package.json" afterPath="$PROJECT_DIR$/commerce/package.json" />
-      <change beforePath="$PROJECT_DIR$/commerce/src/app/app.module.ts" afterPath="$PROJECT_DIR$/commerce/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/commerce/src/app/app.component.html" afterPath="$PROJECT_DIR$/commerce/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/commerce/src/app/app.component.ts" afterPath="$PROJECT_DIR$/commerce/src/app/app.component.ts" />
       <change beforePath="$PROJECT_DIR$/commerce/src/app/core/core.module.ts" afterPath="$PROJECT_DIR$/commerce/src/app/core/core.module.ts" />
-      <change beforePath="$PROJECT_DIR$/commerce/src/app/core/login/login.component.ts" afterPath="$PROJECT_DIR$/commerce/src/app/core/login/login.component.ts" />
-      <change beforePath="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html" afterPath="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html" />
-      <change beforePath="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts" afterPath="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/CODE_OF_CONDUCT.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/CONTRIBUTING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion-group.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion-group.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion-group.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion-group.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/accordion.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/accordion/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/alert.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/alert/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format-functions.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format-functions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format-functions.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format-functions.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/format.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/cs.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/cs.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/cs.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/de.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/de.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/de.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/en-gb.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/en-gb.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/en-gb.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-do.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-do.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-do.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-do.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-us.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-us.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-us.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es-us.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/es.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/fr.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/fr.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/fr.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/he.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/he.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/he.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hi.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hi.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hi.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hu.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hu.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/hu.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/it.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/it.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/it.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ja.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ja.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ja.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ko.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ko.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ko.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl-be.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl-be.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl-be.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl-be.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/nl.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pl.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pl.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pl.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pt-br.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pt-br.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/pt-br.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ru.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ru.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/ru.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/sv.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/sv.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/sv.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/tr.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/tr.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/tr.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/zh-cn.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/zh-cn.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/i18n/zh-cn.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/en.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/en.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.defaults.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.defaults.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.defaults.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locale.defaults.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locales.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locales.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locales.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/locales.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/sv.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/locale/sv.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/types.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/types.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/types.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/types.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-month.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-month.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-month.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-week.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-week.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-week.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-week.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-year.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-year.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-year.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/day-of-year.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/hour.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/hour.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/hour.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/minute.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/minute.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/minute.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/month.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/month.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/month.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/month.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/second.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/second.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/second.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week-calendar-utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week-calendar-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week-calendar-utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week-calendar-utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/week.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/year.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/year.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/year.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/units/year.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-compare.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-compare.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-compare.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-compare.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-getters.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-getters.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-getters.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-getters.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-setters.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-setters.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-setters.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/date-setters.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/start-end-of.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/start-end-of.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/start-end-of.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/start-end-of.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/type-checks.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/type-checks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/type-checks.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bs-moment/utils/type-checks.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bundles/ngx-bootstrap.es2015.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bundles/ngx-bootstrap.es2015.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bundles/ngx-bootstrap.umd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bundles/ngx-bootstrap.umd.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/bundles/ngx-bootstrap.umd.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-checkbox.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-checkbox.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-checkbox.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-checkbox.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-radio.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-radio.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-radio.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/button-radio.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/buttons.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/buttons.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/buttons.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/buttons.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/buttons/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/carousel.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/slide.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/slide.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/slide.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/carousel/slide.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/collapse.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/collapse/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/bs-component-ref.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/bs-component-ref.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/bs-component-ref.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/bs-component-ref.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.factory.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.factory.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.factory.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/component-loader.factory.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/content-ref.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/content-ref.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/content-ref.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/content-ref.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/listen-options.model.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/listen-options.model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/listen-options.model.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/component-loader/listen-options.model.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/base/bs-datepicker-container.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/base/bs-datepicker-container.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/base/bs-datepicker-container.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/base/bs-datepicker-container.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker-input.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker-input.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker-input.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker-input.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-datepicker.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker-input.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker-input.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker-input.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker-input.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-daterangepicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-locale.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-locale.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-locale.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/bs-locale.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/date-formatter.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/date-formatter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/date-formatter.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/date-formatter.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker-inner.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker-inner.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker-inner.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker-inner.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/datepicker.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/daypicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/daypicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/daypicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/daypicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/calc-days-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/calc-days-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/calc-days-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/calc-days-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-days-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-days-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-days-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-days-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-months-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-months-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-months-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-months-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-years-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-years-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-years-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/flag-years-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-days-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-days-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-days-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-days-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-months-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-months-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-months-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-months-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-years-calendar.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-years-calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-years-calendar.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/format-years-calendar.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/view-mode.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/view-mode.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/view-mode.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/engine/view-mode.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/models/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/models/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/models/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/models/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/monthpicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/monthpicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/monthpicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/monthpicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/_defaults.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/_defaults.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/_defaults.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/_defaults.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.actions.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.actions.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.actions.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.effects.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.effects.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.effects.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.effects.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.reducer.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.reducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.reducer.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.reducer.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.state.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.state.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.state.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.state.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.store.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.store.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.store.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/reducer/bs-datepicker.store.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-calendar-layout.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-calendar-layout.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-calendar-layout.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-calendar-layout.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-current-date-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-current-date-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-current-date-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-current-date-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-custom-dates-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-custom-dates-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-custom-dates-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-custom-dates-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-day-decorator.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-day-decorator.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-day-decorator.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-day-decorator.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-navigation-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-navigation-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-navigation-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-datepicker-navigation-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-daterangepicker-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-daterangepicker-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-daterangepicker-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-daterangepicker-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-days-calendar-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-days-calendar-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-days-calendar-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-days-calendar-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-months-calendar-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-months-calendar-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-months-calendar-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-months-calendar-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-timepicker-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-timepicker-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-timepicker-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-timepicker-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-years-calendar-view.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-years-calendar-view.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-years-calendar-view.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/themes/bs/bs-years-calendar-view.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/bs-calendar-utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/bs-calendar-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/bs-calendar-utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/bs-calendar-utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/matrix-utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/matrix-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/matrix-utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/matrix-utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/scss/mixins.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/scss/mixins.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/scss/variables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/utils/scss/variables.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/yearpicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/yearpicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/yearpicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/datepicker/yearpicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-menu.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-menu.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-menu.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-menu.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-toggle.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-toggle.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-toggle.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-toggle.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.state.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.state.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.state.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown.state.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/locale.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/locale.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/locale.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/locale.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/state.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/state.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/state.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/state.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/store.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/store.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/store.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/mini-ngrx/store.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal-ref.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal-ref.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal-ref.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal-ref.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/bs-modal.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.options.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.options.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-backdrop.options.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-options.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-options.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-options.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal-options.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/modal/modal.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pager.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pager.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pager.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pager.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/pagination/pagination.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/popover/popover.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/ng-positioning.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/ng-positioning.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/ng-positioning.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/ng-positioning.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/positioning.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/positioning.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/positioning.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/positioning/positioning.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/bar.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/bar.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/bar.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/bar.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progress.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progress.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progress.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progress.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/progressbar/progressbar.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/rating/rating.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.service.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/draggable-item.service.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/sortable/sortable.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/ng-transclude.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/ng-transclude.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/ng-transclude.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/ng-transclude.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab-heading.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab-heading.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab-heading.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab-heading.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tab.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabs.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabs.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabs.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabs.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tabs/tabset.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.actions.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.actions.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.actions.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.reducer.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.reducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.reducer.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.reducer.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.store.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.store.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.store.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/reducer/timepicker.store.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker-controls.util.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker-controls.util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker-controls.util.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker-controls.util.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.models.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.models.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.models.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.models.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/timepicker/timepicker.utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.config.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.config.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.config.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/tooltip/tooltip.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/latin-map.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/latin-map.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/latin-map.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/latin-map.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-container.component.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-container.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-container.component.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-container.component.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-match.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-match.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-match.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-match.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-options.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-options.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-options.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-options.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-utils.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-utils.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead-utils.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.directive.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.directive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.directive.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.directive.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.module.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.module.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/typeahead/typeahead.module.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/decorators.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/decorators.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/decorators.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/decorators.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/facade/browser.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/facade/browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/facade/browser.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/facade/browser.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/index.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/linked-list.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/linked-list.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/linked-list.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/linked-list.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/theme-provider.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/theme-provider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/theme-provider.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/theme-provider.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/trigger.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/trigger.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/trigger.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/trigger.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/triggers.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/triggers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/triggers.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/triggers.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/utils.class.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/utils.class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/utils.class.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/utils.class.metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/warn-once.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/warn-once.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/warn-once.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ngx-bootstrap/utils/warn-once.metadata.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts" afterPath="$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts" />
+      <change beforePath="$PROJECT_DIR$/commerce/src/styles.css" afterPath="$PROJECT_DIR$/commerce/src/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -865,47 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.service.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/.angular-cli.json">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commerce/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -914,18 +41,8 @@
       <file leaf-file-name="navi.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="256">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -934,45 +51,72 @@
       <file leaf-file-name="core.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commerce/src/app/core/core.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navi.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.html">
+      <file leaf-file-name="signup.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding>
+                <element signature="e#135#142#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navi.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
-                <element signature="e#179#186#1" expanded="true" />
-                <element signature="e#1111#1118#1" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1004,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/schedule/app.js" />
-        <option value="$PROJECT_DIR$/chart/chart.html" />
         <option value="$PROJECT_DIR$/chart/chart.js" />
         <option value="$PROJECT_DIR$/Baseball/util.js" />
         <option value="$PROJECT_DIR$/Baseball/Baseball.js" />
@@ -1041,20 +183,22 @@
         <option value="$PROJECT_DIR$/commerce/src/app/core/cart/cart.component.css" />
         <option value="$PROJECT_DIR$/commerce/src/app/shared/drawer/drawer.component.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/cart/cart-item.ts" />
-        <option value="$PROJECT_DIR$/commerce/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/cart/cart.component.html" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/cart/cart.component.ts" />
-        <option value="$PROJECT_DIR$/commerce/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/login/login.component.css" />
         <option value="$PROJECT_DIR$/commerce/src/app/shared/shared.module.ts" />
-        <option value="$PROJECT_DIR$/commerce/src/styles.css" />
         <option value="$PROJECT_DIR$/commerce/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/login/login.component.html" />
-        <option value="$PROJECT_DIR$/commerce/src/app/core/core.module.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts" />
         <option value="$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html" />
+        <option value="$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts" />
+        <option value="$PROJECT_DIR$/commerce/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/commerce/src/app/core/core.module.ts" />
+        <option value="$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.html" />
+        <option value="$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.css" />
+        <option value="$PROJECT_DIR$/commerce/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/commerce/src/styles.css" />
       </list>
     </option>
   </component>
@@ -1141,14 +285,6 @@
               <item name="commerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="remindjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="remindjs" type="462c0819:PsiDirectoryNode" />
-              <item name="commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1184,6 +320,15 @@
               <item name="commerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="signup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remindjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remindjs" type="462c0819:PsiDirectoryNode" />
+              <item name="commerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1193,15 +338,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="remindjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="remindjs" type="462c0819:PsiDirectoryNode" />
-              <item name="commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="drawer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1355,12 +491,12 @@
       <workItem from="1513445463025" duration="8099000" />
       <workItem from="1513520275041" duration="1189000" />
       <workItem from="1513560546330" duration="9767000" />
-      <workItem from="1513861276131" duration="3234000" />
+      <workItem from="1513861276131" duration="6902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78587000" />
+    <option name="totallyTimeSpent" value="82255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1409,22 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baseball/src/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drawer/product.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js" />
-    <entry file="file://$PROJECT_DIR$/drawer/bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drawer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1504,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/shared/drawer/drawer.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1557,14 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1581,56 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="2" lean-forward="false" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/shared/product.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/shared/shared.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1643,24 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1697,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ngx-bootstrap/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1723,31 +749,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
-            <element signature="e#179#186#1" expanded="true" />
-            <element signature="e#1111#1118#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/core.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#179#186#1" expanded="false" />
+            <element signature="e#1111#1118#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1757,43 +765,181 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/shared/shared.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/shared/product.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/product/product.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="324">
           <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/login/login.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/core/shared/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts">
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/navi/navi.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/core.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#135#142#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/core/signup/signup.component.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>

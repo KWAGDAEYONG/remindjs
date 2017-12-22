@@ -3,6 +3,8 @@ import {Product} from "./shared/product";
 import {CartComponent} from "./core/cart/cart.component";
 import {NaviComponent} from "./core/navi/navi.component";
 import {DrawerComponent} from "./shared/drawer/drawer.component";
+import {BsModalService} from "ngx-bootstrap";
+import {SignupComponent} from "./core/signup/signup.component";
 
 
 @Component({
@@ -53,6 +55,16 @@ export class AppComponent {
     }
   ]
   title = 'dany';
+
+  constructor(private bsModal: BsModalService) {
+
+  }
+
+  signUp() {
+    this.bsModal.config.class = 'signup';
+    this.bsModal.show(SignupComponent);
+
+  }
 
 
   viewDetail(product: Product) {
