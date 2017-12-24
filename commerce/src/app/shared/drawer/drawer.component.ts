@@ -1,5 +1,6 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {DOCUMENT} from "@angular/common";
+import {DrawerService} from "../../core/shared/drawer.service";
 
 @Component({
   selector: 'dany-drawer',
@@ -10,19 +11,20 @@ export class DrawerComponent implements OnInit {
 
   isOpen = false;
 
-  constructor( @Inject(DOCUMENT) private doc: Document) { }
+  constructor(private drawerService:DrawerService) { }
 
   ngOnInit() {
   }
 
   open() {
+    this.drawerService.open()
     this.isOpen = true;
-    this.doc.body.style.transform = 'translateX(-320px)';
   }
 
   close() {
+    this.drawerService.close();
     this.isOpen = false;
-    this.doc.body.style.transform = 'translateY(0)';
+
   }
 
 }
