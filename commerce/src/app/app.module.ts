@@ -7,6 +7,7 @@ import { ProductComponent } from './product/product.component';
 import {CoreModule} from './core/core.module';
 import { BannerComponent } from './banner/banner.component';
 import {SharedModule} from "./shared/shared.module";
+import {CheckoutModule} from "./checkout/checkout.module";
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {SharedModule} from "./shared/shared.module";
   imports: [
     BrowserModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    CheckoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

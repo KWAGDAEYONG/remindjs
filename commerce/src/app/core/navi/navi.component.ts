@@ -1,6 +1,7 @@
 import {Component, ElementRef, EventEmitter, HostListener, Inject, Input, OnInit, Output} from '@angular/core';
 import {DOCUMENT} from "@angular/common";
 import {AuthService} from "../shared/auth.service";
+import {CartService} from "../shared/cart.service";
 
 @Component({
   selector: 'dany-navi',
@@ -8,12 +9,12 @@ import {AuthService} from "../shared/auth.service";
   styleUrls: ['./navi.component.css']
 })
 export class NaviComponent implements OnInit {
+
   didScroll = false;
   changeHeaderOn = 200;
   navbar;
   email: string;
 
-  @Input()
   cartTotalCount= 0;
 
   @Output()
@@ -25,7 +26,11 @@ export class NaviComponent implements OnInit {
   @Output()
   onLoginClick = new EventEmitter();
 
-  constructor(private el: ElementRef, @Inject(DOCUMENT) private document: Document, private auth: AuthService) {
+  @Input()
+  fixed = false;
+
+
+  constructor(private el: ElementRef, @Inject(DOCUMENT) private document: Document, private auth: AuthService, private cartService: CartService) {
     auth.token.subscribe(user => {
       if(user) {
         console.log(user.email);
@@ -34,6 +39,8 @@ export class NaviComponent implements OnInit {
         this.email = undefined;
       }
     });
+
+    this.cartService.cartItems.subscribe(v => this.cartTotalCount = v.length);
   }
 
   logout() {
@@ -42,6 +49,11 @@ export class NaviComponent implements OnInit {
 
   ngOnInit() {
     this.navbar = this.el.nativeElement.querySelector('.navbar-default');
+    if (this.fixed) {
+      this.navbar.classList.add('navbar-scroll');
+    } else {
+      this.navbar.classList.remove('navbar-scroll');
+    }
   }
 
   onCartClicked() {

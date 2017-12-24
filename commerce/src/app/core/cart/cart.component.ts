@@ -1,6 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {CartItem} from "./cart-item";
 import {Product} from "../../shared/product";
+import {CartService} from "../shared/cart.service";
 
 @Component({
   selector: 'dany-cart',
@@ -13,15 +14,15 @@ export class CartComponent implements OnInit {
 
   @Output()
   onClose = new EventEmitter();
-
+/*
   @Output()
-  onItemRemove = new EventEmitter();
+  onItemRemove = new EventEmitter();*/
 
   onCloseClicked() {
     this.onClose.emit();
   }
 
-  addCart(product: Product) {
+ /* addCart(product: Product) {
 
     const foundProduct = this.cart.find(c => c.product.id === product.id);
     if(foundProduct) {
@@ -29,24 +30,19 @@ export class CartComponent implements OnInit {
     } else {
       this.cart.push({product, counts:1});
     }
-  }
+  }*/
 
   getTotal() {
     return this.cart.reduce((p, n) => p+(n.counts * n.product.price), 0);
   }
 
   remove(cartItem: CartItem) {
-
-    if (cartItem.counts > 1) {
-      cartItem.counts -= 1;
-    } else {
-      const index = this.cart.indexOf(cartItem);
-      this.cart.splice(index, 1);
-      this.onItemRemove.emit(this.cart);
-    }
+    this.cartService.remove(cartItem);
   }
 
-  constructor() { }
+  constructor(private cartService: CartService) {
+    this.cartService.cartItems.subscribe(v => this.cart = v);
+  }
 
   ngOnInit() {
   }

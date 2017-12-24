@@ -5,6 +5,7 @@ import {NaviComponent} from "./core/navi/navi.component";
 import {DrawerComponent} from "./shared/drawer/drawer.component";
 import {BsModalService} from "ngx-bootstrap";
 import {SignupComponent} from "./core/signup/signup.component";
+import {CartService} from "./core/shared/cart.service";
 
 
 @Component({
@@ -56,7 +57,7 @@ export class AppComponent {
   ]
   title = 'dany';
 
-  constructor(private bsModal: BsModalService) {
+  constructor(private bsModal: BsModalService, private cartService: CartService) {
 
   }
 
@@ -73,8 +74,7 @@ export class AppComponent {
   }
 
   addCart(product: Product, cart: CartComponent) {
-    cart.addCart(product);
-    this.naviComponent.cartTotalCount = cart.cart.length;
+    this.cartService.addCart(product);
     this.drawerComponent.open();
   }
 

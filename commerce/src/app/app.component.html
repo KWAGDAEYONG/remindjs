@@ -1,18 +1,19 @@
 <dany-drawer #drawer>
-  <dany-cart #cart (onClose)="drawer.close()" (onItemRemove)="navi.cartTotalCount = $event.length"></dany-cart>
+  <dany-cart #cart (onClose)="drawer.close()"></dany-cart>
 </dany-drawer>
 <dany-navi #navi
            (onCartClick)="(drawer.isOpen)? drawer.close() : drawer.open()"
            (onLoginClick)="modal.show()"
-           (onSignUpClick)="signUp()" ></dany-navi>
+           (onSignUpClick)="signUp()"
+           [fixed]="true"></dany-navi>
 
 <!--modal-->
 <div bsModal #modal="bs-modal" dany-login class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
      aria-hidden="true">
-
 </div>
+<main class = "m-t-main">
 
-<main>
+
   <dany-banner></dany-banner>
   <section class="new-arrivals container">
     <div class="row copy mt-3">
@@ -28,10 +29,12 @@
           [product]="product"
           (onStarClicked)="addStar($event)"
           (onDetailClicked)="viewDetail($event)"
-          (onCartClicked)="addCart($event, cart)"
+          (onCartClicked)="addCart($event)"
         >
         </dany-product>
       </div>
     </div>
   </section>
+
+  <dany-checkout></dany-checkout>
 </main>

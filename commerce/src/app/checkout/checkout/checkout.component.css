@@ -1,0 +1,122 @@
+
+/* breadcrumb */
+.breadcrumb-wrapper ol.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: 0;
+}
+.breadcrumb-wrapper .page-title h2 {
+  color: #797979;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+@media (max-width: 479px) {
+  .breadcrumb-wrapper ol.breadcrumb {
+    float: left!important;
+    min-height: 15px;
+  }
+}
+@media (min-width: 480px) {
+  .breadcrumb-wrapper ol.breadcrumb {
+    float: right!important;
+    min-height: 70px;
+  }
+}
+dcrumb-wrapper ol.breadcrumb .active {
+  color: #252525;
+  text-transform: uppercase;
+}
+.breadcrumb-wrapper ol.breadcrumb li a {
+  text-transform: uppercase;
+  color: #969696;
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumb-wrapper ol.breadcrumb li a:hover {
+  opacity: .9;
+}
+@media (min-width: 480px) {
+  .breadcrumb-wrapper ol.breadcrumb li a {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 480px) {
+  .breadcrumb-wrapper ol.breadcrumb li a {
+    font-size: 9px;
+    line-height: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumb-wrapper ol.breadcrumb li a {
+    font-size: 12px;
+  }
+}
+
+/* checkout */
+.checkout-section .form-horizontal .form-group {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.order-panel {
+  border: 1px solid #ddd;
+  min-height: 500px;
+}
+.order-panel .total-section span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.order-panel .checkout-btn {
+  width: 100%;
+}
+
+/* order items */
+li.cart-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: block;
+  padding: 20px 50px 0 125px;
+  min-height: 100px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #4a4a4a;
+}
+li.cart-item a {
+  display: block;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+li.cart-item a.remove-item {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+li.cart-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+}
+li.cart-item img {
+  max-width: 150px;
+  width: 100px;
+  height: 100px;
+}
+li.cart-item .quantity {
+  padding-bottom: 15px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.35);
+}
+section.submitted input.ng-invalid {
+  border: 1px solid lightcoral;
+}

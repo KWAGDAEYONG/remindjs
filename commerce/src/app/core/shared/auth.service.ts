@@ -35,5 +35,12 @@ export class AuthService {
     localStorage.setItem('access_token',token);
   }
 
+  signUp(email, password) {
+    return this.http.post('http://localhost:3000/api/auth/register', {
+      email, password
+    })
+      .do(console.log)
+  }
+
 
 }

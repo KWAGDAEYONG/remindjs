@@ -7,6 +7,7 @@ import {SharedModule} from '../shared/shared.module';
 import {JwtModule} from '@auth0/angular-jwt';
 import {AuthService} from "./shared/auth.service";
 import { SignupComponent } from './signup/signup.component';
+import {CartService} from "./shared/cart.service";
 
 @NgModule({
   imports: [
@@ -23,7 +24,7 @@ import { SignupComponent } from './signup/signup.component';
   ],
   declarations: [NaviComponent, CartComponent, LoginComponent, SignupComponent],
   exports: [NaviComponent, CartComponent, LoginComponent, SignupComponent],
-  providers: [AuthService],
+  providers: [AuthService, CartService],
   entryComponents: [SignupComponent]
 })
 export class CoreModule { }
