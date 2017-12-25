@@ -16,6 +16,9 @@ export class HomeComponent implements OnInit {
   @ViewChild(NaviComponent)
   naviComponent: NaviComponent;
 
+  title = 'dany';
+  constructor(private bsModal: BsModalService, private cartService: CartService, private drawerService: DrawerService) { }
+
   productList : Product[] = [
     {
       id: '1',
@@ -50,9 +53,6 @@ export class HomeComponent implements OnInit {
       total_reviews: 400
     }
   ]
-  title = 'dany';
-
-  constructor(private bsModal: BsModalService, private cartService: CartService, private drawerService: DrawerService) { }
 
   ngOnInit() {
   }

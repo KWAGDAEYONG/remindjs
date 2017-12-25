@@ -9,6 +9,7 @@ import {AuthService} from "./shared/auth.service";
 import { SignupComponent } from './signup/signup.component';
 import {CartService} from "./shared/cart.service";
 import {DrawerService} from "./shared/drawer.service";
+import {ProductService} from "./shared/product.service";
 
 @NgModule({
   imports: [
@@ -25,7 +26,7 @@ import {DrawerService} from "./shared/drawer.service";
   ],
   declarations: [NaviComponent, CartComponent, LoginComponent, SignupComponent],
   exports: [NaviComponent, CartComponent, LoginComponent, SignupComponent],
-  providers: [AuthService, CartService, DrawerService],
+  providers: [AuthService, CartService, DrawerService, ProductService],
   entryComponents: [SignupComponent]
 })
 export class CoreModule { }

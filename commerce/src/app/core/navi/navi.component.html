@@ -7,9 +7,9 @@
             <ul class="list-inline pull-right top-right">
               <li *ngIf="!email; else loginInfo" class="account-login">
                 <span>
-                  <a href="#" (click)="onLoginClick.emit()" data-toggle="modal" data-target="#login-modal">Log in</a>
+                  <a href="#" (click)="onLoginClick.emit(); false;" data-toggle="modal" data-target="#login-modal">Log in</a>
                   <small>or</small>
-                  <a href="#" (click)="onSignUpClick.emit()" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
+                  <a href="#" (click)="onSignUpClick.emit(); false;" data-toggle="modal" data-target="#signup-modal">Sign Up</a>
                 </span>
               </li>
               <ng-template #loginInfo>
@@ -49,7 +49,7 @@
             <a class="page-scroll" routerLink="/home">HOME</a>
           </li>
           <li routerLinkActive="active">
-            <a class="page-scroll" routerLink="/product">PRODUCTS</a>
+            <a class="page-scroll" routerLink="/products">PRODUCTS</a>
           </li>
         </ul>
       </div>

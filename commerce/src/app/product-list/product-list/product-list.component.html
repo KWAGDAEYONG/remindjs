@@ -1,0 +1,98 @@
+<section class="breadcrumb-wrapper mb-m clearfix">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="page-title">
+          <h2>Product List</h2>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <ol class="breadcrumb pull-right">
+          <li>
+            <a routerLink="/home">Home</a>
+          </li>
+          <li class="active">Product List</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container sidbar">
+  <div class="row">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">Product categories</div>
+        <div class="panel-body">
+          <ul class="nav nav-pills nav-stacked push">
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'shirts'}">
+                <span class="badge pull-right">2</span> Shirts</a>
+            </li>
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'watches'}">
+                <span class="badge pull-right">2</span> Watches</a>
+            </li>
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'clothes'}">
+                <span class="badge pull-right">3</span> Clothes</a>
+            </li>
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'gloves'}">
+                <span class="badge pull-right">18</span> GLoves</a>
+            </li>
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'shoes'}">
+                <span class="badge pull-right">2</span> Shoes</a>
+            </li>
+            <li>
+              <a [routerLink]='' [queryParams]="{category: 'notes'}">
+                <span class="badge pull-right">12</span> Notes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel panel-default priceRange">
+        <div class="panel-heading">Filter by Price</div>
+        <div class="panel-body clearfix">
+          <div class="price-slider">
+            <input type="text" class="price-range" value="" data-slider-min="10" data-slider-max="1000"
+                   data-slider-step="5" data-slider-value="[250,450]"
+            />
+            <br>
+            <span class="amount-wrapper">
+              <span class="price-label">Price:</span>
+              <input type="text" id="price-min" readonly="">
+              <strong>-</strong>
+              <input type="text" id="price-max" readonly="">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <div class="row filter-area mb-xs">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <select name="guiest_id1" id="guiest_id1" class="select-drop">
+            <option value="0">Default sorting</option>
+            <option value="1">Sort by popularity</option>
+            <option value="2">Sort by rating</option>
+            <option value="3">Sort by newness</option>
+            <option value="3">Sort by price</option>
+          </select>
+        </div>
+      </div>
+      <div class="row items">
+        <div *ngFor="let product of productList" class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+          <dany-product
+            [product]="product"
+            (onStarClicked)="addStar($event)"
+            (onDetailClicked)="viewDetail($event)"
+            (onCartClicked)="addCart($event)">
+          </dany-product>
+        </div>
+        <!-- <div class="row items"> -->
+      </div>
+    </div>
+  </div>
+</section>

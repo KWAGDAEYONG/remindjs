@@ -10,6 +10,8 @@ import {RouterModule, Routes} from "@angular/router";
 import {HomeModule} from "./home/home.module";
 import {HomeComponent} from "./home/home/home.component";
 import {CheckoutComponent} from "./checkout/checkout/checkout.component";
+import {ProductListModule} from "./product-list/product-list.module";
+import {AuthGuard} from "./auth-guard.service";
 
 const routes: Routes = [
   {
@@ -19,7 +21,9 @@ const routes: Routes = [
     path:'', redirectTo:'/home', pathMatch: 'full'
   },
   {
-    path:'checkout', component: CheckoutComponent
+    path:'checkout',
+    component: CheckoutComponent,
+    canActivate: [AuthGuard]
   }
 ]
 
@@ -33,9 +37,10 @@ const routes: Routes = [
     SharedModule,
     CheckoutModule,
     HomeModule,
+    ProductListModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

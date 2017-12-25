@@ -33,6 +33,7 @@ export class NaviComponent implements OnInit {
         console.log(user.email);
         this.email = user.email;
       } else {
+        console.log('?');
         this.email = undefined;
       }
     });
